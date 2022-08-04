@@ -465,11 +465,12 @@ header .navbar .log:hover{
     width: 700px;
 }
 .welcome-screen .banner-two{
-    background-image: url('../images/move.png');
+    background-image: url('../images/SAMPLE.jpg');
 }
 .welcome-screen .banner-three{
-    background-image: url('../images/Rect.png'); 
+    background-image: url('../images/move.png'); 
 }
+
 .welcome-screen .carousel-item{
     background-size: cover;
     background-position: top center;
@@ -622,11 +623,16 @@ header .navbar .log:hover{
     font-weight: 700;
 }
 .compliance h1{
-    font-size: 22px;
+    font-size: 16px;
     color: #000;
     line-height: 1.5;
     text-align: center;
     font-weight: 700;
+}
+.compliance .aim{
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 .compliance p a{
     text-decoration: none;
@@ -648,6 +654,43 @@ header .navbar .log:hover{
     display: block;
     margin: auto;
     border-radius: 10px;
+}
+.compliance .Proffes{
+    padding: 30px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.compliance .click button{
+    margin-top: 30px !important;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #9AB937;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    background-color: #FFF;
+}
+.compliance .click button:hover{
+    background-color: #9AB937;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    color: #FFF;
+}
+.compliance .click button a{
+    text-decoration: none;
+    color: #000;
+}
+.compliance .click button a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 .compliance .btn-div{
     padding: 60px 0 0 0;
@@ -792,6 +835,48 @@ header .navbar .log:hover{
     width: 40%;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
 }
+.document .set button a{
+    text-decoration: none;
+    color: #000;
+}
+.document .set button a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.document .set button{
+    display: block;
+    margin-top: 40px !important;
+    margin: auto;
+    padding: 10px 20px 10px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #F4FFF7;
+}
+.document .set button:hover{
+    background-color: #9AB937;
+    color: #fff;
+}
+.generate .set button a{
+    text-decoration: none;
+    color: #000;
+}
+.generate .set button a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.generate .set button{
+    display: block;
+    margin-top: 40px !important;
+    margin: auto;
+    padding: 6px 20px 6px 20px;
+    border-radius: 7px;
+    border: 1px solid #9AB937;
+    background-color: #fff;
+}
+.generate .set button:hover{
+    background-color: #9AB937;
+    color: #fff;
+}
 @media (max-width: 1000px){
     .document .set{
         z-index: 999 !important;
@@ -842,7 +927,7 @@ header .navbar .log:hover{
     list-style: 2;
 }
 .document .img-div img{
-    width: 400px;
+    width: 340px;
     display: inline-block;
     margin: auto;
 } 
@@ -1037,7 +1122,7 @@ header .navbar .log:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 10px;
+    padding: 50px 10px;
     margin-top: 80px;
     color: #fff;
 }
@@ -1073,12 +1158,41 @@ header .navbar .log:hover{
     border-radius: 5px;
 }
 .online .lent {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 700;
+    padding: 0 0 30px 0;
 }
 .online p{
-    line-height: 2;
-    font-size: 19px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.online ol{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.online button{
+    margin-top: 30px !important;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #9AB937;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    background-color: #FFF;
+}
+.online button a{
+    text-decoration: none;
+    color: #000;
+}
+.online button a:hover{
+    color: #9AB937;
 }
 @media (max-width:520px) {
     .online .div-image img{
@@ -1108,6 +1222,36 @@ header .navbar .log:hover{
 .stand .what{
     font-size: 25px;
     font-weight: 700;
+}
+.stand .help{
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.stand .help p{
+    margin-bottom: 0px;
+}
+.stand button{
+    margin-top: 20px !important;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #9AB937;
+    border-radius: 10px;
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    background-color: #FFF;
+    margin-bottom: 20px !important;
+}
+.stand button a{
+    text-decoration: none;
+    color: #000;
+}
+.stand button a:hover{
+    color: #9AB937;
 }
 .stand .div-btn{
     margin-top: 30px;
@@ -1679,3 +1823,35 @@ header .navbar .log:hover{
         font-size: 22px;
     }
 }
+/**********Privacy*************/
+.privacy{
+    padding: 50px 0px 50px 0px;
+}
+.privacy h1{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.privacy p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+}
+.privacy p a{
+    text-decoration: none;
+}
+.privacy p a:hover{
+    text-decoration: underline;
+}
+.privacy ul li{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+}
+.privacy ul li a{
+    text-decoration: none;
+}
+.privacy ul li a:hover{
+    text-decoration: underline;
+}
+/******* Privacy Ends*******/
