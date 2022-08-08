@@ -115,7 +115,7 @@ header .navbar .log:hover{
     }
     header .navbar .signin{
         padding: 10px 10px;
-      }
+    }
 }
 @media(max-width: 991px){
     header .navbar .nav-item{
@@ -517,6 +517,9 @@ header .navbar .log:hover{
         margin-left: 30px;
         display: none;
     }
+    .welcome-screen{
+        margin-top: 20px;
+    }
     .showing{
         display: none;
     }
@@ -535,6 +538,10 @@ header .navbar .log:hover{
 
     }
     .welcome-screen .banner-two{
+        background-image: url('../images/SAMPLE.jpg');
+        box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+    }
+    .welcome-screen .banner-three{
         background-image: url('../images/move.png');
         box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
     }
@@ -563,6 +570,10 @@ header .navbar .log:hover{
 @media (max-width: 600px){
     .welcome-screen .carousel-item .banner-note{
         width: 100%;
+    }
+    .welcome-screen .carousel-item{
+        padding: 10px 10px 100px 10px;
+        color: #fff;
     }
     .welcome-screen img{
         display: none;
@@ -1855,3 +1866,6 @@ header .navbar .log:hover{
     text-decoration: underline;
 }
 /******* Privacy Ends*******/
+
+
+
